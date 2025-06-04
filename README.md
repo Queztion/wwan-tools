@@ -4,7 +4,8 @@ Will be updating this with more scripts soon:
 
 
 
-Scripts for clearing logs:
+
+**Scripts for clearing logs:**
 
 truncate_syslogs.sh   - truncate syslogs
 
