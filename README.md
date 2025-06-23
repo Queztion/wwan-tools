@@ -1,4 +1,4 @@
-# **WWAN Tools for Activating WWAN on Linux / Enabling WWAN on Lin**
+# **WWAN Tools for Activating WWAN on Linux / Enabling WWAN on Linux**
 
 Will be updating this with more scripts soon, but will add instructions below
 
