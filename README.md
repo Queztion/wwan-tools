@@ -12,5 +12,7 @@ journalctl_clear.sh - clear journalctl logs
 dmesg_clear.sh - clear dmesg logs  
 
 
+## **Activating WWAN on Linux / Enabling WWAN on Linux**
+
 
 
