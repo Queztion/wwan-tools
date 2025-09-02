@@ -1,0 +1,43 @@
+meson
+glib2-devel
+gobject-introspection-devel.x86_64
+gtk-doc
+libusb1-devel
+sqlite-devel
+gnutls-devel
+gpgme-devel
+vala
+libcurl-devel
+ModemManager-glib-devel
+libqmi-devel
+
+libsoup-3.0
+sudo dnf install libsoup-devel
+
+ninja -C build part
+json
+sudo dnf install json-glib-devel
+
+flashroom
+sudo dnf install flashrom-devel
+
+xmlb-2.0
+sudo dnf install libxmlb-devel
+
+BUILD INSTALL
+FAILED: meson-internal__install
+sudo dnf install libxml2-utils libxslt
+
+sudo dnf install libjcat
+
+Double check history,
+some updates are missing when I forgot to update comment:
+
+sudo dnf install libsoup3-devel
+
+meson setup build --prefix=/usr -Dplugin_modem_manager=enabled -Ddocs=disabled -Dman=false -Dpolkit=enabled
+
+sudo dnf install polkit-devel
+
+sudo dnf install systemd-devel
+sudo dnf install libarchive-devel
