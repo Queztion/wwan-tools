@@ -75,3 +75,7 @@ libprotobuf-c-dev
 protobuf-c-compiler
 sudo
 python3-venv
+help2man
+libqrtr-glib-dev
+libdbus-1-dev 
+systemd-dev
