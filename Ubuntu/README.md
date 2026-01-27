@@ -15,7 +15,7 @@ manual compilation of libmbim, libqmi and ModemManager can be skipped.
 
 We can just install dev files directly:  
 libmbim-glib-dev  
-libmqmi-glib-dev  
+libqmi-glib-dev  
 libmm-glib-dev  
   
 Otherwise, if manual build is needed, check guide below:
