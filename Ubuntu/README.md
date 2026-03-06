@@ -10,16 +10,15 @@ Installing list.txt installs several dependency requirements from these librarie
 
 # Installation Instructions
 
-For fwupdmgr only compilation,  
-manual compilation of libmbim, libqmi and ModemManager can be skipped.
+For fwupdmgr only compilation,
+just install dependencies and then,
+you can skip to fwup / LVFS instruction below.
 
-We can just install dev files directly:  
-libmbim-glib-dev  
-libqmi-glib-dev  
-libmm-glib-dev  
   
-Otherwise, if manual build is needed, check guide below:
-
+Otherwise, if manual build needed, start from step 1.
+MBIM
+QMI
+ModemManager
 
 -------------------------------------------------------------------------------
 
@@ -81,9 +80,38 @@ Check version:
 $ ModemManager --version  
 ModemManager 1.25.95  
 
-  
+
+-------------------------------------------------------------------------------
+
+## 5.LVFS / fwupd  
+
+--------------
+
+If MBIM, QMI and MBIM does not needed to be manually compiled,
+
+We can just install dev files directly:  
+libmbim-glib-dev  
+libqmi-glib-dev  
+libmm-glib-dev  
+
+Otherwise, we still need to compile and follow instructions above.
+
+--------------
 
 
+git clone https://github.com/fwupd/fwupd.git
+
+cd fwupd
+
+meson setup build --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu -Dplugin_modem_manager=enabled
+
+ninja -C build
+
+sudo ninja -C build install
+
+
+**Check version:  **
+fwupdmgr --version
 
 -------------------------------------------------------------------------------
 
