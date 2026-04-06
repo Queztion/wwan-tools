@@ -8,5 +8,5 @@ ninja -C build
 
 sudo ninja -C build install
 
-Check version:
+# Check version:
 fwupdmgr --version
