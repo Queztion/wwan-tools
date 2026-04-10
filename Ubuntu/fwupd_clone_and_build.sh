@@ -3,7 +3,7 @@
 git clone https://github.com/fwupd/fwupd.git
 cd fwupd
 
-meson setup build --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu -Dplugin_modem_manager=enabled
+meson setup build --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu -Dplugin_modem_manager=enabled -Ddocs=disabled
 
 ninja -C build
 
