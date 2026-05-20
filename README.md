@@ -35,7 +35,7 @@ guide can be found here:
 After OS is installed proceed to step 2.
 
 2. FCC Unlock can be found here:
-[lenovo-wwan-unlock_0421.tar.gz](https://github.com/lenovo/lenovo-wwan-unlock)
+[lenovo-wwan-unlock ](https://github.com/lenovo/lenovo-wwan-unlock)
 
 Just run FCC command in terminal:
 ./fcc_unlock_setup.sh
