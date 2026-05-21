@@ -10,5 +10,9 @@ ninja -C build
 
 sudo ninja -C build install
 
+sudo systemctl daemon-reload
+
+sudo systemctl restart fwupd.service
+
 # Check version:
 fwupdmgr --version
