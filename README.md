@@ -40,28 +40,28 @@ After OS is installed proceed to step 2.
 Just run FCC command in terminal:
 ./fcc_unlock_setup.sh
 
-Reboot
+Reboot  
+  
+3. Since Ubuntu 26.04 is updated to latest patches for WWAN,  
+Mobile Network should work already.  
 
-3. Since Ubuntu 26.04 is updated to latest patches for WWAN,
-Mobile Network should work already.
-
-Just insert SIM card and configure WWAN, 
-and setup should work. 
-
-Environment Config:
-OS:  Ubuntu 26.04 LTS
-Kernel: 7.0.0-14-generic
-MBIM: 1.32.0
-QMI: 1.39.0
-ModemManager 1.25.95
-fwupmgr 2.1.1 
-
-
-
-Ubuntu 24.04 LTS and older releases are using older ModemManager libraries, so
-you need to go to /Fedora or /Ubuntu folder for the compilation instructions specific to those OS.
-
-Ubuntu 24.04.4 LTS:
-https://ubuntu.com/download/alternative-downloads#past-releases-and-other-flavours
+Just insert SIM card and configure WWAN,   
+and setup should work.   
+  
+Environment Config:  
+OS:  Ubuntu 26.04 LTS  
+Kernel: 7.0.0-14-generic  
+MBIM: 1.32.0  
+QMI: 1.39.0  
+ModemManager 1.25.95  
+fwupmgr 2.1.1   
+  
+    
+  
+Ubuntu 24.04 LTS and older releases are using older ModemManager libraries, so  
+you need to go to /Fedora or /Ubuntu folder for the compilation instructions specific to those OS.  
+  
+Ubuntu 24.04.4 LTS:  
+https://ubuntu.com/download/alternative-downloads#past-releases-and-other-flavours  
 
 
