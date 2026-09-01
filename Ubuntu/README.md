@@ -20,6 +20,10 @@ MBIM
 QMI
 ModemManager
 
+
+NOTE: As of fwupd 2.2.X, meson is required, please refer to instructions at the bottom for this.
+
+
 -------------------------------------------------------------------------------
 
 ## 1. Install dependencies from list.txt
@@ -118,3 +122,20 @@ fwupdmgr --version
 -------------------------------------------------------------------------------
 
 ## 5. Restart system   
+
+
+
+
+ADDITIONAL NOTE:
+
+# meson
+-------
+git clone https://github.com/mesonbuild/meson.git  
+cd meson  
+git checkout tags/1.0.0  
+sudo python3 setup.py install  
+  
+Check version:  
+$ meson --version  
+1.0.0  
+  
