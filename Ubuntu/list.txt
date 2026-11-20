@@ -79,3 +79,6 @@ help2man
 libqrtr-glib-dev
 libdbus-1-dev 
 systemd-dev
+rustc
+cargo
+
